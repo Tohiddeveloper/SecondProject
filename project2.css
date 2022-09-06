@@ -8,12 +8,12 @@ header{
     height: 50px;
 }
 h1{
-    color: white !important
+    color:rgb(255, 17, 0) !important
    
 }
 
 p{
-    color: white;
+    color: rgb(255, 17, 0);
     font-size: 30px;
 }
 #brand{
@@ -24,7 +24,7 @@ p{
 .bd{
     display:inline-block;
     margin-left: 680px;
-    color: white;
+    color: white; 
 }
 .brandImg{
     height:40px;
@@ -43,7 +43,7 @@ p{
     margin-left: 30%;
 }
 .color{
-    background-color: black;
+    background-color: white;
 }
 footer{
     height: 1000px;
