@@ -6,8 +6,6 @@ body{
 }
 header{
     height: 50px;
-    /* border: 5px solid blue; */
-    background-color: black;
 }
 h1{
     color: white !important
@@ -44,17 +42,11 @@ p{
     height:280px !important;
     margin-left: 30%;
 }
-#Maincontainer{
-    
-    background-color: black;
-}
 .color{
     background-color: black;
 }
 footer{
     height: 1000px;
-    /* border: solid 2px red; */
-    background-color: black;
 }
 
 .Pfooter{
