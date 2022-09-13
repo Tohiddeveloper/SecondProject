@@ -8,24 +8,9 @@
         <title>Netflix Originals | Netflix Official Site </title>
         <link href="images/Netflix_icon.png" rel="Icon"/>
         <link href="project2.css" rel="stylesheet"/>
-        <style>
-            body{
-                background-color:white;
-                color:black
-            }
-            .mydark{
-                background-color:black;
-                color:white
-            }
-        </style>
-        <script>
-            const changeMode=()=>{
-                let mybody = document.body;
-                mybody.classList.toggle('mydark')
-            }
-        </script>
+        <script src="project.js"></script>
     </head>
-    <body class="mydark">
+    <body>
         <button onclick="changeMode()">chnageMode</button>
         <header>
             <div id="brand">
@@ -44,8 +29,12 @@
                 </a>
             </div>
         </header>
+        <div id="coupon">
+            <img src="Images/panchayat2.jpg" alt="panchayat2" style="width:100%; height: 600px;">
+            <button onClick="closeCoupon()">&times;</button>
+        </div>
         <div id="Maincontainer">
-            <div class="jumbotron color" >
+            <div>
                 <h1>Netflix Originals</h1>
                 <div>
                     <p>Netflix is the home of amazing original programming that you can't find </p>
@@ -374,7 +363,7 @@
         </div>
         <footer>
             <br>
-           <div>
+           <div id="info">
                 <br/>
                 <h3> There's even more to watch.</h3>
                 <div class="Pfooter">
@@ -497,5 +486,8 @@
 
             
         </footer>
+        <script>
+            window.onload=loadCoupon()
+        </script>
     </body>
 </html>

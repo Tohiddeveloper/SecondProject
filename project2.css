@@ -2,7 +2,13 @@ a{
     text-decoration: none;
 }
 body{
+    background-color:black;
+    color:white;
     margin: auto;
+}
+.dark-mode{
+    background-color:white;
+    color:black;
 }
 header{
     height: 50px;
@@ -13,7 +19,6 @@ h1{
 }
 
 p{
-    color: rgb(255, 17, 0);
     font-size: 30px;
 }
 #brand{
@@ -23,11 +28,28 @@ p{
 }
 .bd{
     display:inline-block;
-    margin-left: 680px;
+    margin-left: 600px;
     color: white; 
 }
 .brandImg{
     height:40px;
+}
+#coupon{
+    height:500px;
+    width:500px;
+    position:absolute;
+    margin-left:30%;
+    z-index: 10;
+    display:none;
+}
+button{
+    background:linear-gradient( rgb(193, 150, 22),rgb(199, 58, 11));
+    color: white;
+    border: none;
+    width: 120px;
+    padding: 7px 13px;
+    font-size: 16px;
+    border-radius: 6px;
 }
 .btn{
    float: right;
@@ -42,9 +64,7 @@ p{
     height:280px !important;
     margin-left: 30%;
 }
-.color{
-    background-color: black;
-}
+
 footer{
     height: 1000px;
 }
