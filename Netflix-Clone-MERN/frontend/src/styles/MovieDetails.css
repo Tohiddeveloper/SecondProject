@@ -1,0 +1,35 @@
+.movie-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.movie-img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.movie-info {
+    max-width: 600px;
+}
+
+.movie-info h1 {
+    margin-bottom: 10px;
+}
+
+.watch-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.watch-btn:hover {
+    background: darkred;
+}
